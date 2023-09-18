@@ -1,0 +1,125 @@
+
+body {
+ background-image: url('https://images4.alphacoders.com/783/783472.jpg'); /* Substitua 'caminho/para/background.jpg' pelo caminho real da sua imagem */
+ background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o fundo */
+ background-repeat: no-repeat; /* Evita a repetição da imagem */
+ background-attachment: fixed; /* Fixa a imagem de fundo para que ela não role com a página */
+}
+
+h1 {
+ color:rgb(0, 8, 255);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 120px;
+line-height: 0.9;
+}
+
+h1 {
+ text-align: center;
+ top: 30%;
+ left: 150%;
+ transform: translate(-0%, -20%);
+}
+
+h1 {
+ outline: 20px solid #000; /* Define um contorno preto de 2 pixels */
+ line-height: 100%;
+}
+
+
+.botao-simples {
+ background-color: rgb(22, 22, 22);
+ color: rgb(221, 255, 0);
+ font-size: xx-large;
+ padding: 30px 40px;
+ border: none;
+ cursor: pointer;
+ 
+ }
+ 
+ .botao-simples:hover {
+  background-color: rgb(15, 15, 15);
+ }
+
+.mario {
+
+ width: 450px;
+ height: 250px;
+ margin: 0px;
+
+}
+
+
+
+h3 {
+ color:rgb(255, 247, 0);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+line-height: 0.1;
+}
+
+
+h2 {
+ color:rgb(0, 0, 0);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 30px;
+line-height: 0.8;
+}
+
+h2 {
+ text-align: center;
+ top: 30%;
+ left: 150%;
+ transform: translate(-0%, -20%);
+}
+
+.eduardo {
+
+ width: 450px;
+ height: 200px;
+ margin: 0px;
+
+}
+
+
+.botao-simples2 {
+ background-color: rgb(22, 22, 22);
+ color: rgb(221, 255, 0);
+ font-size: xx-large;
+ padding: 30px 40px;
+ border: none;
+ cursor: pointer;
+ }
+ 
+ .botao-simples2:hover {
+  background-color: rgb(15, 15, 15);
+ }
+
+ .botao-simples3 {
+  background-color: rgb(22, 22, 22);
+  color: rgb(221, 255, 0);
+  font-size: xx-large;
+  padding: 30px 40px;
+  border: none;
+  cursor: pointer;
+  }
+  
+  .botao-simples3:hover {
+   background-color: rgb(15, 15, 15);
+  }
+ 
+  .srdgames {
+
+   align-items: center;
+   width: 1300px;
+   height: 320px;
+   margin: 0.1px;
+  
+  }
+
+  .skyrim {
+
+   width: 450px;
+   height: 250px;
+   margin: 0px;
+  
+  }
