@@ -1,0 +1,44 @@
+header{
+/*botar imagem de fundo*/
+ background-image: url();  /*background-color: black;/*muda a cor do fundo*/
+ color: rgb(0, 0, 0);/*muda a cor de tudo que esta dentro do header*/
+ padding: 100px;/*muda o tamanho da margem */
+ text-align: center;/*centraliza o texto*/
+ height: none;
+ width: none;
+
+}
+
+body {
+ 
+background-color: #59bb63;
+}
+
+nav ul {
+ list-style-type: none;
+}
+
+nav ul li {
+ display: inline;
+ margin-right: 50px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: #E8FD0D;
+ font-weight: bolder;
+}
+
+nav ul li a:hover {
+ color: #36F900;
+ text-decoration: underline;
+}
+
+.break {
+ align-items: center;
+ width: 1000px;
+ height: 250px;
+ margin: 0.1px;
+
+
+}
