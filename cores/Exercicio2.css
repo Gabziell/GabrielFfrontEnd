@@ -1,0 +1,101 @@
+header{
+/*botar imagem de fundo*/
+ background-image: url();  /*background-color: black;/*muda a cor do fundo*/
+ color: rgb(0, 0, 0);/*muda a cor de tudo que esta dentro do header*/
+ padding: 100px;/*muda o tamanho da margem */
+ text-align: center;/*centraliza o texto*/
+ height: none;
+ width: none;
+
+}
+
+body {
+ 
+background-image: linear-gradient(green, black);
+}
+
+nav ul {
+ list-style-type: none;
+}
+
+nav ul li {
+ display: inline;
+ margin-right: 50px;
+}
+
+nav ul li a {
+ text-decoration: none;
+ color: #E8FD0D;
+ font-weight: bolder;
+}
+
+nav ul li a:hover {
+ color: #36F900;
+ text-decoration: underline;
+}
+
+.break {
+ align-items: center;
+ width: 1000px;
+ height: 250px;
+ margin: 0.1px;
+
+
+}
+
+.mal {
+ text-align: center;
+ color: #36F900;
+ 
+}
+.mal2 {
+ text-align: center;
+ color: #36F900;
+ 
+}
+.mal3 {
+ text-align: center;
+ color: #36F900;
+ font-size: 40px;
+}
+.break1 {
+ align-items: center;
+ width: 1335px;
+ height: 500px;
+ margin: 0.1px;
+
+
+}
+
+.break2 {
+ align-items: center;
+ width: 1335px;
+ height: 500px;
+ margin: 0.1px;
+
+
+}
+
+.break3 {
+ align-items: center;
+ width: 1335px;
+ height: 500px;
+ margin: 0.1px;
+
+
+}
+
+.fim {
+text-align: center;
+color: #36F900;
+font-size: 250px;
+}
+
+.quimica {
+ width: 1200px;
+ height: 200px;
+}
+.quimica2 {
+
+ text-align: center;
+}
