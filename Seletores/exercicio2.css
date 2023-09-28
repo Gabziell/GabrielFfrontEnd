@@ -1,0 +1,15 @@
+body {
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.oao {
+ text-align: center;
+}
+
+mark {
+ background-color: rgb(252, 244, 140);
+}
+
+p {
+ text-indent: 20pt;
+}
