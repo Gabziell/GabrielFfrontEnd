@@ -1,0 +1,284 @@
+body {
+ margin: 0;
+ 
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ text-align: center;
+ font-weight: bold;
+background-color: #77D8B8;
+
+}
+
+#logo {
+  
+  height: 280px;
+}
+
+.cabecalho__logo {
+  justify-content: left;
+ padding: 40px 0;
+ height: 250px;
+ display: flex;
+
+}
+
+.cabecalho__menu {
+ display: flex;
+ flex-wrap: wrap;
+background-color: #52CDA5;
+
+ border-radius: 30px;
+ height: 120px;
+ font-size:  20px;
+}
+
+.cabecalho__item-menu a {
+
+ display: inline-block;
+ margin-left: 1em;
+ margin-right: 1em;
+ padding: 45px 40px;
+ text-decoration: none;
+ color: rgb(255, 255, 255);
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ height: 60px;
+}
+
+
+.bemvinde {
+background-image: url(https://standards.ieee.org/wp-content/uploads/2021/12/Connected-technologies-1920x1080-1.jpg);
+background-size: cover;
+width: 100%;
+height: 600px;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+.pinga {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: bold; 
+text-transform: uppercase;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.582);
+padding: 50px;
+color: white;
+border-radius: 10px;
+}
+
+#novo {
+  background-image: url(https://paas-s3-broker-prod-lon-2edbd31f-65e0-4d35-9755-fde7c3b1b292.s3.amazonaws.com/images/Tech.original.png);
+background-size: cover;
+padding-top: 70px;
+padding-bottom: 70px;
+justify-content: center;
+display: flex;
+align-items: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.caixa1 {
+ justify-content: center;
+  background-color: #77D8B8;
+  width: 300px;
+  margin: 100px;
+  padding: 20px;
+  border-radius: 10px ;
+  box-shadow: -10px 5px 10px  rgb(36, 126, 117);
+  }
+
+  .blublu {
+  text-align: center;
+font-size: large;
+  }
+
+ 
+  .icon {
+    height:80px;
+    width: 80px;
+    transform: translate(60px,-10px);
+  }
+
+#novo2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+  #texto {
+    color: #77D8B8;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 20px;
+margin-left: 50px;
+text-align: justify;
+  }
+
+#imagen {
+  width: 10000px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 25px;
+}
+
+#imagen img {
+ max-width: 100%;
+ max-height: 100%;
+ border-radius: 10px;
+}
+
+.obg {
+  background-color: rgb(0, 0, 0);
+background-size: cover;
+  margin: 0;
+  height: 150px;
+}
+
+.tes {
+  color: white;
+  text-align: center;
+margin: 0;
+font-size: 60px;
+text-shadow: -2px -2px 5px  cyan;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#vo {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0px;
+
+}
+
+.pai {
+   margin: 20px;
+
+  width: 600px;
+  height:225px ;
+}
+
+.filho {
+ 
+  border: 3px solid #77D8B8;
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: #77D8B8;
+}
+
+.form-container {
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+background-color: rgba(255, 255, 255, 0.9);
+padding: 20px;
+border-radius: 5px;
+width: 100%;
+max-width: 400px;
+box-shadow: 0 0 10px rgba(0 , 0 , 0, 0.2);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner2 {
+  background-image: url(https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+background-size: cover;
+width: 100%;
+height: 600px;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #77D8B8;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #52CDA5;
+}
+
+
+table {
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 15px;
+  overflow: hidden;
+  border-spacing: 0;
+  width: 750px;
+  text-align: center;
+  justify-content: center;
+  height: 40px;
+  box-shadow: 1px 105px 1px 10px #77D8B8;
+  background-color: white;
+ margin: 35px;
+ }
+ 
+ th, td {
+  border: 1px solid rgba(0, 0, 0, 0.301);
+  padding: 10px;
+  text-align: center;
+ 
+ }
+ 
+ .ok {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ font-size: x-large;
+ background-color: cyan;
+ color: white;
+ text-shadow: 1px 1px 10px darkcyan;
+ }
+ 
+ .img2 {
+  width: 35px;
+ }
+ 
+ .uhu {
+  background-color: rgba(0, 255, 255, 0.493);
+ }
+
+ .tabela {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  
+ }
+
+ .qu {
+  background-color: rgb(0, 0, 0);
+background-size: cover;
+  margin: 0;
+  height: 150px;
+}

@@ -1,0 +1,39 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+}
+
+h1 {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-style: italic;
+ font-weight: 1000;
+ color:rgb(33, 97, 126);
+ font-size: 100px;
+ text-align: center;
+}
+h2 {
+font-family:'Times New Roman', Times, serif
+}
+/*
+p {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1em;
+font-style: italic;
+font-weight: bold;
+}
+*/
+.par {
+ font: italic bold 1em Arial, Helvetica, sans-serif; text-align: center;
+}
+
+.oi {
+ text-align: left;
+}
+
+.tim {
+ text-align: right;
+}
+
+.vivo {
+ text-align: justify;
+}

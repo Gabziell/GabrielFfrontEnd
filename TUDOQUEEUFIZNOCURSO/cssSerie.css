@@ -1,0 +1,400 @@
+body {
+ margin: 0%;
+ background-image: linear-gradient(90deg, rgb(15, 52, 121), rgb(2, 14, 53));
+}
+
+.cabecalho__logo {
+ transform: translate(-100px, -70px);
+ 
+ }
+ 
+ .cabecalho__menu {
+     text-decoration: white;
+     display: flex;
+     align-items: center;
+    
+ }
+ 
+ .cabecalho__item-menu {
+     margin: 20px;
+ }
+ 
+ .cabecalho__logo{
+     margin-right: 200px;
+     color: white;
+ }
+ 
+ .cabecalho {
+     margin: -8px;
+     background-image:linear-gradient(90deg, rgb(0, 0, 0),rgb(26, 26, 121));
+     display: flex;
+     text-align: center;
+     font-weight: bold;
+     background-color: #000000;
+     color: white;
+     justify-content: space-evenly;
+     height: 140px;
+     
+ } 
+ 
+ 
+ .cabecalho__menu, a {
+     color: white;
+     font-size: 20px;
+     
+ }
+
+/*gf*/
+
+.video-container {
+ height: -5000px;
+ display: flex;
+ justify-content: center;
+ background-image:linear-gradient(90deg, rgb(0, 0, 0),rgb(0, 0, 0));
+}
+
+#logo {
+ 
+ height: 280px;
+}
+
+.content {
+ position: absolute; 
+ top: 50%; 
+ left: 50%; 
+ transform: translate(-120%, -50%); 
+ text-align: center; 
+ color: #fff; 
+}
+
+video {
+ opacity: 70%;
+
+}
+
+
+.genero {
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: 24px;
+color: rgb(19, 56, 126);
+display: flex;
+justify-content: left;
+align-items: center;
+margin-left: 40px;
+
+} 
+
+.nome {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 56px;
+color:white;
+display: flex;
+justify-content: left;
+align-items: center;
+margin-left: 40px;
+}
+
+.star {
+ margin-top: 13px;
+ width: 20px;
+ height: 20px;
+ margin-left: 40px;
+}
+
+.nas {
+display: flex;
+
+}
+
+
+
+
+.hu {
+ margin-left: 15px;
+}
+
+
+.botao {
+ background-color: rgb(15, 15, 15);
+ color: rgb(19, 56, 126);
+ font-size: x-large;
+ padding: 30px 60px;
+ border: none;
+ cursor: pointer;
+ border-radius: 20px;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ 
+ .botao:hover {
+  background-color: rgba(255, 255, 255, 0.24);
+  color: rgb(15, 15, 15);
+ }
+
+ #botao {
+  margin-top: 20px;
+margin-left: 150px;
+  width: 20px;
+  height: 20px;
+ }
+
+/*gf*/
+
+
+
+.div-pai {
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+}
+
+
+.img {
+ width: 250px;
+ height: 450px;
+ border-radius: 10px;
+ margin: 5px;
+ 
+ border: rgb(0, 0, 0) solid 2px;
+ box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.432);
+}
+
+
+.img12 {
+ width: 250px;
+ height: 450px;
+ margin: 5px;
+ margin-left: 20px;
+ border-radius: 10px;
+ border: rgb(0, 0, 0) solid 2px;
+ box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.418);
+} 
+
+
+
+
+/* Defina a classe da imagem com o tamanho original e uma transição */
+.img12 {
+ 
+
+ transform: scale(1);
+     transition: transform 0.3s ease-in-out; /* Adicione uma transição para suavizar a mudança de tamanho */
+ }
+ 
+ /* Quando o mouse passar por cima da imagem (hover), aplique a transformação */
+ .img12:hover {
+     transform: scale(1.5); /* Aumenta o tamanho quando o mouse passa por cima */
+ }
+ 
+
+ .img {
+ 
+
+     transform: scale(1);
+         transition: transform 0.3s ease-in-out; /* Adicione uma transição para suavizar a mudança de tamanho */
+     }
+     
+     /* Quando o mouse passar por cima da imagem (hover), aplique a transformação */
+     .img:hover {
+         transform: scale(1.5); /* Aumenta o tamanho quando o mouse passa por cima */
+     }
+ 
+
+
+
+
+
+
+.h1-img {
+ color: white;
+ font-size: 20px;
+ margin-left: 20px;
+}
+
+.h2-img {
+ margin-left: 20px;
+ color: rgb(122, 122, 122);
+ font-size: 15px;
+}
+
+.p-img {
+ margin-left: 20px;
+ color: rgb(122, 122, 122);
+}
+
+
+#p1 {
+color: white;  
+font-size: 40px;
+margin-left: 30px;
+align-items: end; 
+margin-top: 150px;
+}
+
+
+.teste {
+ padding-top: 50px;
+ padding-bottom: 50px;
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+ height: 700px;
+ width: 100%;
+
+ 
+}
+.test {
+ color: rgb(14, 14, 14);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ padding: 100px;
+ margin-right: 150px;
+ text-align: center;
+ background-image: url(pngtree-mountains-covered-with-snow-image_2204658.jpg);
+ display: flex;
+ justify-content: space-between;
+ width: 1000px;
+ height: 400px;
+ margin-top: 50px;
+ margin-left: 100px;
+ border: 5px solid rgb(255, 255, 255);
+ mask-repeat: no-repeat;
+ 
+}
+.test-filho {
+ width: 500px;
+ display: flex;
+ text-align: center;
+}
+.filha-imag {
+ max-width: 100%;
+ max-height: 100%;
+ border-radius: 30px;
+ width: 500px;
+
+}
+.oba:hover {
+ transform: scale(1.1);
+ transition: transform (0.5s ease);
+}
+#txt {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+
+
+
+.diretores{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-left: 70px;
+ margin-right: 70px;
+ align-items: flex-end;
+ 
+}
+.foto {
+ width: 100px;
+ height: 100px;
+ border: 2px solid rgb(0, 0, 0);
+ border-radius: 50px;
+}
+
+.submit2 {
+
+border-radius: 10px;
+height: 50px;
+width: 50px;
+font-size: 20px;
+}
+
+.submit {
+ 
+border-radius: 10px;
+height: 50px;
+width: 100px;
+font-size: 20px;
+}
+
+
+
+
+/* Defina a cor original do botão */
+.submit {
+ background-color: #3498db; /* Cor de fundo original */
+ color: #fff; /* Cor do texto original */
+ 
+
+border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ transition: background-color 0.3s; /* Adicione uma transição para suavizar a mudança de cor */
+}
+
+/* Quando o mouse passar por cima do botão (hover), mude a cor de fundo */
+.submit:hover {
+ 
+
+background-color: #1eff00; /* Nova cor de fundo quando o mouse passar por cima */
+}
+
+
+.submit2 {
+ background-color: #3498db; /* Cor de fundo original */
+ color: #fff; /* Cor do texto original */
+ 
+
+border: none;
+ padding: 10px 20px;
+ cursor: pointer;
+ transition: background-color 0.3s; /* Adicione uma transição para suavizar a mudança de cor */
+}
+
+/* Quando o mouse passar por cima do botão (hover), mude a cor de fundo */
+.submit2:hover {
+ 
+
+background-color: #1eff00; /* Nova cor de fundo quando o mouse passar por cima */
+}
+
+
+
+
+
+
+
+.fundo-img {
+ width: 300px;
+ height: 400px;
+ background-image:linear-gradient(rgb(148, 148, 148),  rgba(46, 46, 46, 0.871) 70%);
+ border-radius: 50px; /* Aredonda as bordas do quadrado*/
+ color: white; /* Adiciona cor a tudo que esta dentro*/
+ padding: 20px;/* Adiciona margin dentro */
+ text-align: center;/* Centraliza o texto*/
+ margin: 20px;
+}
+
+#p2 {
+ text-align: center;
+ padding-top: 20px;
+ color: white;
+ font-size: 40px;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ margin-left: 500px;
+ margin-right:  500px;
+}
+
+
+#final {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #002d4b;
+ height: 200px;
+ margin: 0%;
+ color: #fff;
+}
+
+#img-final {
+ width: 300px;
+}

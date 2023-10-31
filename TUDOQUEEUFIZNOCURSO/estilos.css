@@ -1,0 +1,62 @@
+em {
+ color:rgb(25, 133, 157);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 60px;
+line-height: 0.9;
+}
+
+h2 {
+ color:rgb(25, 133, 157);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 60px;
+line-height: 0.9;
+}
+
+p {
+ font-size: 26px;
+ line-height: 1;
+}
+
+img {
+max-width: 50%;
+height: auto;
+margin: 0px ;
+}
+
+a {
+color:rgb(0, 0, 0);
+text-decoration: none;
+}
+
+a:hover {
+ color: red;
+ text-decoration: underline;
+}
+
+
+.botao-simples {
+background-color: rgb(255, 255, 255);
+color: rgb(253, 254, 254);
+font-size: medium;
+padding: 20px 50px;
+border: none;
+cursor: pointer;
+}
+
+.botao-simples:hover {
+ background-color: rgb(15, 15, 15);
+}
+
+strong {
+ color:rgb(8, 8, 8);
+
+font-size: 60px;
+line-height: 0.9;
+}
+
+h1 {
+ color:rgb(25, 133, 157);
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 60px;
+line-height: 0.9;
+}

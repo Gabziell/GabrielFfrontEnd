@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<header>
+<body>
+ 
+<button id="DropDownButton"><img class="imagem" src="menu2.png" alt=""></button>
+<div id="menu" class="Escondida">
+<a href="#" class="lt">Item 1</a>
+<a href="#" class="lt">Item 2</a>
+<a href="#" class="lt">Item 3</a>
+</div>
+
+<script>
+const button = document.getElementById("DropDownButton")
+const menu = document.getElementById("menu")
+
+button.addEventListener("click", function() {
+/*
+if (menu.style.display === "none") {
+menu.style.display = "flex";
+menu.display.flexDirection = "column"
+} else {
+ menu.style.display = "none";}
+*/
+menu.classList.toggle("mostrar");
+})
+
+
+
+
+</script>
+</header>
+
+
+
+
+
+</body>
+</html>
